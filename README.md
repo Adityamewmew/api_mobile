@@ -1,16 +1,37 @@
-# api_mobile_prak
+**API_MOBILE**
+API : https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd
 
-A new Flutter project.
+**Crypto Tracker**
+Mempunyai fitur search menginput data ke textfield.**onChanged** dipanggil setiap kali mengetik fungsi ini mengubah nilai variabel **searchQuery** menjadi teks.Teks tersebut akan di saring menggunakan **cryptos.where** dan memcocokan berdasarkan nama yang dicari.
+Menggunakan sorting untuk menata koin dengan market tinggi ke market kecil dengan **filteredCryptos.sort()**,**a['current_price'].compareTo(b['current_price'])** digunakan untuk membandingkan harga koin dan mengurutkannya.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sebelum sorting dan search
+
+
+
+
+
+
+![bandicam 2024-12-23 14-13-59-107](https://github.com/user-attachments/assets/be6eda17-25e3-44f9-ab41-90fa7c2acf7c)
+
+
+
+
+
+
+
+Sesudah sorting dan search
+
+
+
+
+
+
+
+
+![bandicam 2024-12-23 14-14-31-675](https://github.com/user-attachments/assets/7674f3c9-d091-460c-8590-cef049218d62)
+
